@@ -8,14 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="producer-consumer-plainText" />
         <module name="producer-consumer-json-serializer-deserializer" />
-        <module name="producer-consumer-json-serializer-deserializer (1)" />
+        <module name="producer-consumer-multiple-topic" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="producer-consumer-json-serializer-deserializer" options="-parameters" />
-      <module name="producer-consumer-json-serializer-deserializer (1)" options="-parameters" />
+      <module name="producer-consumer-multiple-topic" options="-parameters" />
       <module name="producer-consumer-plainText" options="-parameters" />
     </option>
   </component>
