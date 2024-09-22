@@ -2,21 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="producer-consumer-plainText" />
-        <module name="producer-consumer-json-serializer-deserializer" />
-        <module name="producer-consumer-multiple-topic" />
+        <module name="Kafka-multiple-topic" />
+        <module name="kafka-multiple-topic-yml" />
+        <module name="Kafka-String-Message" />
+        <module name="Kafka-json-serializer-deserializer" />
+        <module name="spring-kafka" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="producer-consumer-json-serializer-deserializer" options="-parameters" />
-      <module name="producer-consumer-multiple-topic" options="-parameters" />
-      <module name="producer-consumer-plainText" options="-parameters" />
+      <module name="Kafka-String-Message" options="-parameters" />
+      <module name="Kafka-json-serializer-deserializer" options="-parameters" />
+      <module name="Kafka-multiple-topic" options="-parameters" />
+      <module name="kafka-multiple-topic-yml" options="-parameters" />
+      <module name="spring-kafka" options="-parameters" />
     </option>
   </component>
 </project>

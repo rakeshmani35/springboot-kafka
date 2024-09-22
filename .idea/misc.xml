@@ -7,6 +7,13 @@
         <option value="$PROJECT_DIR$/producer-consumer-plainText/pom.xml" />
         <option value="$PROJECT_DIR$/producer-consumer-json-serializer-deserializer/pom.xml" />
         <option value="$PROJECT_DIR$/producer-consumer-multiple-topic/pom.xml" />
+        <option value="$PROJECT_DIR$/producer-consumer-multiple-topic-by-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-multiple-topic-yml/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka-json-serializer-deserializer/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka-multiple-topic/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka-String-Message/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-kafka-2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-kafka/pom.xml" />
       </list>
     </option>
   </component>

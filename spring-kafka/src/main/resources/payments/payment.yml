@@ -1,0 +1,10 @@
+payments.topic.details:
+  paymentTopics:
+    -
+      name: card-payments
+      partitions: 1
+      replicas: 2
+    -
+      name: bank-transfers
+      partitions: 1
+      replicas: 2

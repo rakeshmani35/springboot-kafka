@@ -1,0 +1,8 @@
+topic.details:
+  topics:
+    - name: TOPIC1
+      partitions: 1
+      replicas: 2
+    - name: TOPIC2
+      partitions: 1
+      replicas: 2
