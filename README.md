@@ -32,6 +32,6 @@
 8. E:\kafka-logs\topic2-0\00000000000000000000.index -> E:\kafka-logs\topic2-0\00000000000000000000.index.deleted: 
    The process cannot access the file because it is being used by another process. Stopping serving replicas in 
    dir E:\kafka-logs (kafka.server.ReplicaManager)
-   - comment #log.dirs=E:/kafka-logs
+   - Use only topic to send message
 
 
